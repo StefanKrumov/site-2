@@ -1,9 +1,9 @@
 .site-wrapper {
-  max-width: 73em;
+  max-width: 70rem;
   margin: 0 auto;
 }
 
-.site-content {
+.site-content .site-wrapper {
 }
 .site-footer {
 }

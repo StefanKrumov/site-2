@@ -2,10 +2,15 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 2.5em 0;
+  padding: 2em 0;
 }
 .site-title {
   padding: 0;
+}
+.site-title a {
+  font-size: 0.8em;
+  font-weight: 700;
+  color: black;
 }
 .site-media {
   height: 100vh;
@@ -22,16 +27,20 @@
 .site-media .site-wrapper {
   width: 100%;
   color: #fff;
+  font-size: 1.5em;
   position: relative;
   z-index: 10;
 }
 .site-media:before {
   display: block;
   content: "";
-  background: rgba(19, 41, 48, 0.6);
+  background: rgba(12, 24, 12, 0.6);
   position: absolute;
   top: 0;
   right: 0;
   left: 0;
   bottom: 0;
+}
+.site-media .social {
+  padding-top: 2em;
 }

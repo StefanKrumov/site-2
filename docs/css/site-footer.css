@@ -1,0 +1,18 @@
+.site-footer .site-wrapper {
+  padding: 2em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2em;
+}
+site-footer .site-wrapper .social a {
+  background-color: rgba(0, 0, 0, 0.3);
+}
+.site-footer .site-wrapper p {
+  opacity: 0.5;
+  padding-bottom: 0;
+  transition: opacity 0.2s ease-in;
+}
+.site-footer .site-wrapper p:hover {
+  opacity: 0.8;
+}

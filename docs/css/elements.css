@@ -1,0 +1,24 @@
+.social {
+  display: flex;
+}
+.social li {
+  display: block;
+  list-style: none outside;
+  margin-right: 1em;
+}
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(12, 24, 12, 0.3);
+  border-radius: 50%;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 1em;
+  padding-bottom: 0;
+  transition: background 0.2s ease-in;
+}
+.social a:hover {
+  background-color: rgba(95, 95, 95, 0.3);
+}

@@ -27,9 +27,9 @@
   left: 50%;
   transform: translate(-50%, -50%);
   transform-origin: center;
-  transition: transform 0.4s ease-in-out;
+  transition: transform 0.6s ease-in-out;
 }
-.entry-media:hover img {
+.entry:hover img {
   transform: translate(-50%, -50%) scale(1.2);
 }
 
